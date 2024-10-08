@@ -1,0 +1,80 @@
+body {
+    font-size: 18px;
+}
+#inputContainer {
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+input {
+    width: 25px; /* Set a narrower width for the input boxes */
+    height: 30px; /* Set a consistent height for the input boxes */
+    text-align: center; /* Center the text in the input boxes */
+    margin: 0 5px; /* Add space between input boxes */
+    font-size: 18px; /* Increase font size for better visibility */
+    border: 1px solid #4b4545; /* Add a light border for better appearance */
+    border-radius: 5px; /* Optional: make the corners rounded */
+}
+
+#submit {
+    padding: 5px;
+    background-color: rgb(193, 218, 237);
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+#refreshBtn {
+    padding: 5px;
+    background-color: rgb(255, 235, 168);
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+#feedback {
+    padding-top: 10px
+}
+
+#wordForm {
+   padding-top: 10px;
+}
+
+#letterForm {
+    padding-top: 10px;
+ }
+
+#wordForm input {
+    width: 100px;
+}
+
+
+#characters {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+    margin: 5px;
+}
+.letter-box {
+    border: #b1c78f Solid;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#strikes {
+    font-size: 18px;
+    color: rgb(204, 4, 4);
+    padding-bottom: 30px;
+    text-align: end;
+}
+
+#game {
+    width: fit-content;
+    padding: 1%;
+    background-color: rgb(244, 244, 244);
+    border: #6f829f Solid;
+    border-radius: 4px;
+    margin: 5px;
+}

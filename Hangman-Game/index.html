@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Hangman</h2>
+    <h4>You know how it goes...</h4>
+    <div id="word"></div>
+
+    
+    <div id = "game"> 
+      <div id = "characters">
+        <div id="strikes">Strikes: 0</div>
+      </div>
+  
+      <div id="forms">
+        <form id = "letterForm">
+          <label for="letterForm">Guess a Letter:</label>
+          <input id = "inputLetter" type="text" maxlength="1">
+          <button id="submit" type="submit">Submit</button>
+        </form>
+    
+        <form id = "wordForm">
+          <label for="wordForm">Guess the Word:</label>
+          <input id = "inputWord" type="text">
+          <button id="submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div id = "lettersUsed">Letters used: </div>
+    
+    <div id="feedback"></div>
+
+    <button id="refreshBtn">New Word</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
