@@ -25,13 +25,17 @@ input {
 
 #refreshBtn {
     padding: 5px;
-    background-color: rgb(255, 235, 168);
+    background-color: #d9e8c3;
     font-size: 14px;
     border-radius: 10px;
+    margin-top: 6px;
 }
 
 #feedback {
-    padding-top: 10px
+    padding: 5px
+}
+#lettersUsed {
+    padding: 5px
 }
 
 #wordForm {
