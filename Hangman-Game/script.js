@@ -157,7 +157,7 @@ document.getElementById("wordForm").addEventListener("submit", function(e) {
         for (let i = 0; i < randomWord.length; i++) {
             letterSpans[i].textContent = randomWord[i]
         }
-        document.getElementById("feedback").textContent = `Wow! You got the whole word! You win 🙄!`
+        document.getElementById("feedback").textContent = `Wow! You got the whole word! You win 🥳!`
     } else {
         document.getElementById("feedback").textContent = `Oops, that's not it.`
         checkIfPlayerLost()
